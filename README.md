@@ -39,7 +39,7 @@ To explore this repository locally:
    cd PythonPrograms
    ```
 
-3. Run any Python exercise:
+3. Run any Python file:
 
    ```bash
    PrimeNO.py
