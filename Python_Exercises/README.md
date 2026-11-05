@@ -67,7 +67,7 @@ To explore and run the exercises locally:
    6_Simple_Calculator.py
    ```
 
-Make sure Python is installed on your system before running the programs.
+!!Make sure Python is installed on your system before running the programs.!!
 
 ## 📈 Learning Progress
 
