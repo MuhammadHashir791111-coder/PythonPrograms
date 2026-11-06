@@ -21,12 +21,10 @@ The primary purpose of this repository is to:
 
 ## 🛠️ Technologies & Tools
 
-| Technology / Tool | Purpose |
-|---|---|
-| **Python** | Programming language |
-| **Visual Studio Code** | Code editor |
-| **Git** | Version control |
-| **GitHub** | Source code hosting |
+- **Programming Language:** Python
+- **Code Editor:** Visual Studio Code
+- **Version Control:** Git
+- **Platform:** GitHub
 
 ## 📁 Repository Structure
 
