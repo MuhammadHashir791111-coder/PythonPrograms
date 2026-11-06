@@ -7,17 +7,17 @@
 #     3. If the letter is a consonant, print "The letter is a consonant."
 #     4. The program should recognise both uppercase and lowercase letters.
 
-letter = (input("Enter an alphabet letter: "))                   #Taking a letter as input
+letter = input("Enter an alphabet letter: ")                   #Taking a letter as input
 
 
-if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
-    print("\nThe letter is a vowel.\n")
-
-elif letter == "A" or letter == "E" or letter == "I" or letter == "O" or letter == "U":
-    print("\nThe letter is a vowel.\n")
+if len(letter) == 1 and letter.lower() in "abcdefghijklmnopqrstuvwxyz":
+    if letter.lower() in "aeiou":
+        print("\nThe letter is a vowel.\n")
+    else:
+        print("\nThe letter is a consonant.\n")    
 
 else:
-    print("\nThe letter is a consonant.\n")
+    print("\nInvalid input. Please enter a single alphabet letter.\n")
 
 
 #NOTE: I used \n because the output in the terminal looks good to me.
