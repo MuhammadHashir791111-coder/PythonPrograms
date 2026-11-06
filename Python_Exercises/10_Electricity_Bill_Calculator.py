@@ -15,4 +15,4 @@
 #           101–200 units       |    Rs 15
 #        More than 200 units	|    Rs 20
 
-units = int(input("Enter your electricity consumption in units: "))
+units = int(input("Enter your electricity consumption in units: "))                 #Taking units as input
